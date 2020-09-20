@@ -328,6 +328,10 @@ func copyRandomList(head *Node) *Node {
 	return result.Next
 }
 
+func createTest() {
+	fmt.Println("heelo world")
+}
+
 func main() {
 	nums := []int{3, 3, 4, 34, 56, 7, 7, 8, 9, 10, 20, 20, 39, 89, 89}
 	//test := []int{3,5,8,100}
